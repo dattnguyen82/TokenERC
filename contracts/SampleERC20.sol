@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.17;
 
 // ----------------------------------------------------------------------------------
 // A Sample Token which adheres to the ERC20 token standard.
@@ -31,14 +31,5 @@ contract SampleERC20 is TemplateERC20 {
 
         //Give all the tokens to creator initially
         balances[owner] = _initialAmount;
-    }
-
-    // Overridden transferFrom the TemplateERC20 base contract.
-    // To fully comply with the ERC20 standard, a validation that msg.sender is authorized to transfer tokens
-    // from _from to _to.  In our example, the validation will only authorize the token if msg.sender is from
-    // or msg.sender is the smart contract owner.
-    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
-        require(msg.sender == _from || msg.sender == owner);
-        return transferFrom(_from, _to, _value);
     }
 }

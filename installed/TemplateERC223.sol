@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.17;
 
 import "./TemplateERC20.sol";
 
@@ -9,6 +9,5 @@ import "./TemplateERC20.sol";
 // ----------------------------------------------------------------------------
 
 contract TemplateERC223 is TemplateERC20 {
-
     event LogTokenPayable(address _token, address _sender, uint _value);
 }
