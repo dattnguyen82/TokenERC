@@ -90,7 +90,7 @@ contract TemplateERC20 {
     // ----------------------------------------------------------------------------
 
     // Internal transfer function
-    function _transfer(address _from, address _to, uint256 _value) private returns (bool success) {
+    function _transfer(address _from, address _to, uint256 _value) internal returns (bool success) {
         assert(balances[_from] >= _value);
 
         balances[_from] = balances[_from].sub(_value);

@@ -14,6 +14,12 @@ This is a template which implements a [ERC20](https://theethereum.wiki/w/index.p
 
 Provides a template implementation for ERC20 which can be inherited to implement any token
 
+### TemplateERC223
+
+Provides a template implementation for ERC223 which can be inherited to implement any token.  The motivation for this
+standard is to prevent tokens being locked by accidently being sent to contracts rather than receiver addresses.  Please
+read more [here](https://github.com/Dexaran/ERC223-token-standard/tree/Recommended)
+
 ### SafeMath
 
 Provides safe functions for unsigned int
