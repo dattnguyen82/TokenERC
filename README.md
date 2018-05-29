@@ -42,7 +42,13 @@ Migrate
 truffle migrate --reset
 ```
 
-### Deploy on testNet
+### Deploy on testnet
+
+You can deploy on any testnet, but I'd recommend deploying to [Ropsten](https://ropsten.etherscan.io/).
+
+Download [parity](https://www.parity.io/) and  get some ether to deploy from the [faucet](http://faucet.ropsten.be:3001/)
+
+
 
 ### Deploy on main
 
