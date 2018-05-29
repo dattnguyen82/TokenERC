@@ -20,6 +20,11 @@ Provides a template implementation for ERC223 which can be inherited to implemen
 standard is to prevent tokens being locked by accidently being sent to contracts rather than receiver addresses.  Please
 read more [here](https://github.com/Dexaran/ERC223-token-standard/tree/Recommended)
 
+### TemplateER621
+
+Provides a template implementation for ERC621.  ERC621 is essentially the same as ERC20 except it allows users to increase or decrease the total
+token supply.
+
 ### SafeMath
 
 Provides safe functions for unsigned int
@@ -48,10 +53,9 @@ You can deploy on any testnet, but I'd recommend deploying to [Ropsten](https://
 
 Download [parity](https://www.parity.io/) and  get some ether to deploy from the [faucet](http://faucet.ropsten.be:3001/)
 
-
-
 ### Deploy on main
 
+You can use the above method to also deploy to main
 
 ## Test
 
