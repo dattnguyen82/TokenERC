@@ -1,6 +1,6 @@
-# Sample Tokens
+# ERC Tokens
 
-This is a template which implements a [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) and [ERC223](https://github.com/ethereum/EIPs/issues/223) (coming soon).
+Smart Contract templates for ERC token implementations.  You can see a list of standards [here](https://medium.freecodecamp.org/lets-talk-about-the-ethereum-token-standards-you-need-to-know-8af9fcb7e54b)
 
 ## Prequesites
 
