@@ -7,27 +7,27 @@ contract('SampleERC223', function(accounts) {
     {
         return SampleERC223.new( 1000, "TestToken223", "TT223", 18)
             .then(function(instance) {
-                instance.totalSupply().then(function(supply){
+                instance.totalSupply().then((supply)=>{
                     assert.equal(supply.valueOf(), 1000, "Token total supply must match argument 1 from the constructor in ../migrations/deploy_migrations.js");
-                }).catch(function(error){
+                }).catch((error)=>{
                     process.stdout.write(error.toString() + "\n");
                 });
 
-                instance.name().then(function(name){
+                instance.name().then((name)=>{
                     assert.equal(name, "TestToken223", "Token name must match argument 2 from the constructor in ../migrations/deploy_migrations.js");
-                }).catch(function(error){
+                }).catch((error)=>{
                     process.stdout.write(error.toString() + "\n");
                 });
 
-                instance.symbol().then(function(symbol){
+                instance.symbol().then((symbol)=>{
                     assert.equal(symbol, "TT223", "Token symbol must match argument 3 from the constructor in ../migrations/deploy_migrations.js");
-                }).catch(function(error){
+                }).catch((error)=>{
                     process.stdout.write(error.toString() + "\n");
                 });
 
-                instance.decimals().then(function(decimals){
+                instance.decimals().then((decimals)=>{
                     assert.equal(decimals.valueOf(), 18, "Token decimal must argument 4 from the constructor in ../migrations/deploy_migrations.js");
-                }).catch(function(error){
+                }).catch((error)=>{
                     process.stdout.write(error.toString() + "\n");
                 });
             });
