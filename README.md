@@ -8,6 +8,10 @@ Smart Contract templates for ERC token implementations.  You can see a list of s
 
 * [Ganache](http://truffleframework.com/ganache/)
 
+* [Parity](https://www.parity.io/) - (Optional)
+
+* [Parity UI](https://github.com/paritytech/parity-ui/) - (Optional)
+
 ## Libraries
 
 ### TemplateERC20
@@ -88,7 +92,7 @@ You can use the above method to also deploy to main, but you need to change the 
 
 ## Test
 
-There are 2 types of tests for each sample ERC Token: smart contracts and javascript.  I recommend testing using Javascript as it much more usable, however a sample test
+There are 2 types of tests for each sample ERC Token: smart contracts and javascript.  I recommend testing using javascript as it much more usable, however a sample test
 smart contract has been provided as well.
 
 You can run the unit tests using truffle
@@ -107,7 +111,8 @@ there are plenty of excellent tuturials about how to incorporate web3 into your 
 
 * You need 2 ethereum addresses to test the token transfer.  There are a couple of ways to do this, you can either install a wallet app like: [parity](https://www.parity.io/) or [metamask](https://metamask.io/)
 
-* On line 419 dont forget to replace the **"INSERT PRIVATE KEY HERE"** with the private key of your account.  **WARNING** Only do this if you plan on running this locally, if you deploy this app publicly, putting your private key in this file will make it publicly acessible.
+* On line 419 dont forget to replace the **"INSERT PRIVATE KEY HERE"** with the private key of your account.
+**WARNING** **Only do this if you plan on running this locally, if you deploy this app publicly, putting your private key in this file will make it publicly acessible.**
 
 * Open web-app/index.html in any browser
 
