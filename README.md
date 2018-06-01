@@ -2,7 +2,7 @@
 
 Smart Contract templates for ERC token implementations.  You can see a list of standards [here](https://medium.freecodecamp.org/lets-talk-about-the-ethereum-token-standards-you-need-to-know-8af9fcb7e54b)
 
-## Prequesites
+## Prerequesites
 
 * [Truffle](http://truffleframework.com/)
 
